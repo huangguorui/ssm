@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--	<environments default="development">-->
+<!--		<environment id="development">-->
+<!--			<transactionManager type="JDBC"/>-->
+<!--			<dataSource type="POOLED">-->
+<!--				<property name="driver" value="com.mysql.jdbc.Driver"/>-->
+<!--				<property name="url" value="jdbc:mysql://localhost:3306/web_file"/>-->
+<!--				<property name="username" value="root"/>-->
+<!--				<property name="password" value="root"/>-->
+<!--			</dataSource>-->
+<!--		</environment>-->
+<!--	</environments>-->
+	<mappers>
+		<!--        <mapper resource="com.h.dao.UserDao"/>-->
+		<package name="cn.itcast.dao" />
+
+	</mappers>
+	<!--        Exception in thread "main" org.apache.ibatis.binding.BindingException: Type interface com.h.dao.UserDao is not known to the MapperRegistry.-->
+	<!--        at org.apache.ibatis.binding.MapperRegistry.getMapper(MapperRegistry.java:47)-->
+	<!--        at org.apache.ibatis.session.Configuration.getMapper(Configuration.java:779)-->
+	<!--        at org.apache.ibatis.session.defaults.DefaultSqlSession.getMapper(DefaultSqlSession.java:291)-->
+	<!--        at com.h.test.Demo.main(Demo.java:23)-->
+</configuration>
