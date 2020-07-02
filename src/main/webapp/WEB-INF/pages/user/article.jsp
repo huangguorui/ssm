@@ -16,9 +16,8 @@
 <div class="main">
   <jsp:include page="header.jsp"></jsp:include>
   <div class="container  mt50px" id="app">
-    <jsp:include page="choice.jsp"></jsp:include>
 
-    <ol class="breadcrumb">
+    <ol class="breadcrumb" style="margin-top:20px">
       <li><a href="#">首页</a></li>
       <li><a href="#">栏目</a></li>
       <li class="active">  ${projectInfo.title}</li>

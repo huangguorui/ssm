@@ -53,15 +53,15 @@
     </li>
 
     <li>
-      <a href="${pageContext.request.contextPath}/user/findAll?page=1&size=${pageInfo.pageSize}" aria-label="Previous">首页</a>
+      <a href="${pageContext.request.contextPath}/project/findAll?page=1&size=${pageInfo.pageSize}" aria-label="Previous">首页</a>
     </li>
-    <li><a href="${pageContext.request.contextPath}/user/findAll?page=${pageInfo.pageNum-1}&size=${pageInfo.pageSize}">上一页</a></li>
+    <li><a href="${pageContext.request.contextPath}/project/findAll?page=${pageInfo.pageNum-1}&size=${pageInfo.pageSize}">上一页</a></li>
     <c:forEach begin="1" end="${pageInfo.pages}" var="pageNum">
-      <li><a href="${pageContext.request.contextPath}/user/findAll?page=${pageNum}&size=${pageInfo.pageSize}">${pageNum}</a></li>
+      <li><a href="${pageContext.request.contextPath}/project/findAll?page=${pageNum}&size=${pageInfo.pageSize}">${pageNum}</a></li>
     </c:forEach>
-    <li><a href="${pageContext.request.contextPath}/user/findAll?page=${pageInfo.pageNum+1}&size=${pageInfo.pageSize}">下一页</a></li>
+    <li><a href="${pageContext.request.contextPath}/project/findAll?page=${pageInfo.pageNum+1}&size=${pageInfo.pageSize}">下一页</a></li>
     <li>
-      <a href="${pageContext.request.contextPath}/user/findAll?page=${pageInfo.pages}&size=${pageInfo.pageSize}" aria-label="Next">尾页</a>
+      <a href="${pageContext.request.contextPath}/project/findAll?page=${pageInfo.pages}&size=${pageInfo.pageSize}" aria-label="Next">尾页</a>
     </li>
 
     <li>
@@ -151,7 +151,7 @@
     var pageSize = $("#changePageSize").val();
 
     //向服务器发送请求，改变没页显示条数
-    location.href = "${pageContext.request.contextPath}/user/findAll?page=1&size="+ pageSize;
+    location.href = "${pageContext.request.contextPath}/project/findAll?page=1&size="+ pageSize;
 
   }
   console.log($("tr:nth-child("+1+") td:nth-child(1)").text())
