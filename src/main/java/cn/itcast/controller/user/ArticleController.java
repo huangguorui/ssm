@@ -22,23 +22,17 @@ public class ArticleController {
     @Autowired
     private ProjectService projectService ;
 
-//    @RequestMapping("/article")
-//    public ModelAndView findAll(@RequestParam(name = "page",required = true,defaultValue = "1")int page,@RequestParam(name = "size",required = true,defaultValue = "10")int size) throws Exception {
-//        ModelAndView mv = new ModelAndView();
-//        List<Project> userList = projectService.findAll(page,size);
-//        PageInfo pageInfo = new PageInfo(userList);
-//        mv.addObject("pageInfo",pageInfo);
-//        mv.setViewName("/user/article");
-//        return mv;
-//
-//    }
-    //可以通过ID获取到文章
-    //根据roleId查询role，并查询出可以添加的权限
-//    @RequestMapping("/findById")
+
     @RequestMapping("/article")
     public ModelAndView article(@RequestParam(name="id",required = true) Integer id) throws Exception {
         ModelAndView mv = new ModelAndView();
          Project projectInfo = projectService.findById(id);
+         //显示为null，表示改id不存在，跳转主页
+         if(projectInfo==null){
+             mv.setViewName("/user/404");
+             return mv;
+         }
+        System.out.println("projectInfo=="+projectInfo);
         projectInfo.setViews(projectInfo.getViews()+1);
         projectService.update(projectInfo);
 

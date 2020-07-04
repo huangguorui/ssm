@@ -7,20 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5724af3d-6e66-4320-a0a2-e3c00d30e02d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/404.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/article.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/custom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/custom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/free.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/free.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/help.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/help.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/pay.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/reg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/project-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/project-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/user/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/user/article.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/user/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/controller/user/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/controller/user/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/controller/user/ArticleController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,12 +76,12 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\pages\admin" />
-      <recent name="F:\javaProject\ssm\src\main\webapp\static" />
       <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\pages" />
-      <recent name="F:\javaProject\ssm\src\main\resources" />
-      <recent name="F:\javaProject\ssm\src\main\webapp\static\js" />
+      <recent name="F:\javaProject\ssm\src\main\webapp" />
+      <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF" />
+      <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\plugins" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.itcast.controller.user" />
@@ -99,12 +90,12 @@
       <recent name="cn.itcast.service.impl" />
       <recent name="cn.itcast.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javaProject\ssm\src\main\webapp\static\images" />
+      <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\pages\user" />
       <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\pages\admin" />
+      <recent name="F:\javaProject\ssm\src\main\webapp\static" />
       <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\pages" />
-      <recent name="F:\javaProject\ssm\src\main\webapp" />
-      <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF" />
-      <recent name="F:\javaProject\ssm\src\main\webapp\WEB-INF\plugins" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat8-15">
@@ -320,7 +311,7 @@
       <workItem from="1593569349593" duration="226000" />
       <workItem from="1593570189465" duration="28706000" />
       <workItem from="1593652424712" duration="6390000" />
-      <workItem from="1593826027039" duration="2929000" />
+      <workItem from="1593826027039" duration="3618000" />
     </task>
     <servers />
   </component>
