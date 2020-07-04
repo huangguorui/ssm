@@ -2,7 +2,7 @@
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class=" search">
-    <div>网页主题：
+    <div class="none">网页主题：
 
         <button class="btn btn-default" type="submit">人物博客</button>
         <button class="btn btn-default" type="submit">学校网页</button>
@@ -16,7 +16,7 @@
         <button class="btn btn-default" type="submit">公司企业</button>
         <button class="btn btn-default" type="submit">其他成品</button>
     </div>
-    <div>网页页数：
+    <div class="none">网页页数：
         <button class="btn btn-default" type="submit">1-2页</button>
         <button class="btn btn-default" type="submit">3-5页</button>
         <button class="btn btn-default" type="submit"> 6-10页</button>
@@ -27,7 +27,7 @@
 
     </div>
 
-    <div>使用技术：
+    <div class="none">使用技术：
         <button class="btn btn-default" type="submit">html+css</button>
         <button class="btn btn-default" type="submit">表格</button>
         <button class="btn btn-default" type="submit">DIV</button>

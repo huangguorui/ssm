@@ -49,6 +49,7 @@
 
 
 .search {
+    min-height: 30px;
     /* margin-top: 15px;
     padding: 5px;
     box-sizing: border-box; */
@@ -138,4 +139,7 @@ body {
 .article img {
     display: block;
     width: 100%;
+}
+.none {
+    display: none;
 }
