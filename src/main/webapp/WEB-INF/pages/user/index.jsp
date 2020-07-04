@@ -9,8 +9,9 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>大学生作业网</title>
-
+  <title>源码下载网</title>
+  <meta name="keywords" content="源码下载网,网站源码,源码下载,源代码">
+  <meta name="description" content="源码下载网，提供最新免费网站源码下载，配有前台及后台管理界面演示图，绿色安全，每日更新！">
 </head>
 
 <body>

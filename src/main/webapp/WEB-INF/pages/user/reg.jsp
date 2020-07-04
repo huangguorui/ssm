@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
-    <title>用户登录</title>
+    <title>注册-源码下载网</title>
     <link rel="stylesheet" href="/static/css/bootstrap.css">
 
 </head>
@@ -14,7 +14,7 @@
 
 <div class="box">
 
-    <p>用户注册</p>
+    <p>注册-源码下载网</p>
     <form action="/isReg">
         ${message}
         <div class="form-group">

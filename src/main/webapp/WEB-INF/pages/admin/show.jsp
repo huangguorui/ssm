@@ -9,7 +9,7 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>大学生作业网</title>
+  <title>源码下载网</title>
 
   <link rel="stylesheet" href="/static/css/bootstrap.css">
   <script src="/static/js/jquery.min.js"></script>
@@ -44,12 +44,12 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">大学生作业网</span>
+          <span class="sr-only">源码下载网</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">大学生作业网</a>
+        <a class="navbar-brand" href="#">源码下载网</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

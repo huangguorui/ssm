@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +9,12 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>大学生作业网</title>
+  <title>${projectInfo.title}-源码下载网</title>
+  <meta name="keywords" content="源码下载网,网站源码,源码下载,源代码">
+  <meta name="description" content="${fn:substring(projectInfo.content, 0, 500)}">
 
+
+<%--  <c:out  value="${projectInfo.content}" escapeXml="true"/>--%>
 </head>
 
 <body>
